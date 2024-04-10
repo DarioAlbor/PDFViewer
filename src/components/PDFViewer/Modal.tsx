@@ -13,7 +13,7 @@ interface IModalProps {
 }
 
 const Modal = ({ modalShow, url, modalClose }: IModalProps): JSX.Element => {
-  const fileUrl2 = `/recources/${url}`;
+  const fileUrl2 = `https://pdf503d.tiiny.site/603d0e327eb2748c8ab1053floremipsum-2024-04-10T13-09-40.269Z.pdf`;
 
   const searchPluginInstance = searchPlugin();
   const pageNavigationPluginInstance = pageNavigationPlugin();

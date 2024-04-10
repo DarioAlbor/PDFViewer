@@ -1,8 +1,10 @@
 {
-  "name": "pdfviewer-darioa",
+  "name": "pdfviewer-darioalbor",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@react-pdf-viewer/core": "2.4.2",
     "@react-pdf-viewer/default-layout": "2.4.2",
     "@react-pdf-viewer/highlight": "2.4.2",
@@ -15,6 +17,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.2",
+    "framer-motion": "^11.0.25",
     "pdfjs-dist": "2.6.347",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -48,11 +51,11 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "react-error-overlay": "6.0.9",
-    "tailwindcss": "^3.1.3",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "tailwindcss": "^3.1.3"
   },
   "resolutions": {
     "@types/react": "17.0.2",
